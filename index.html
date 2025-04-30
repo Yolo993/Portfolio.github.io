@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Bienvenido</a></li>
+            <li><a href="#SobreMi">Sobre mí</a></li>
+            <li><a href="#Proyectos">Proyectos</a></li>
+            <li><a href="#Contacto">Contactame</a></li>
+        </ul>
+    </nav>
+    
+    <div id="tarjeta">
+        <img src="https://lh3.googleusercontent.com/d/1mjk5_PsAMo_iZU40qOtGijwLrHCSKRMm" alt="Mi Foto" id="foto-perfil">
+        <h1>Joaquín Sánchez</h1>
+        <p>¡Hola! Bienvenido a mi portafolio. Espero que puedas conocer un poco sobre mí, mis aptitudes, y experiencias como desarrollador.</p>
+    </div>
+
+    <div id="SobreMi">
+        <h1>Sobre mí</h1>
+        <p>Mi nombre es Joaquín y tengo 19 años. Soy estudiante en la <a href="https://www.frgp.utn.edu.ar" target="_blank">Universidad Tecnologica Nacional de Pacheco</a>, 
+            cursando la Tecnicatura Superior en Programación desde marzo de 2024. También soy desarrollador en la empresa <a href="https://www.request.com.ar/es" target="_blank">REQUEST</a> desde enero de 2025, 
+            lo que me permitió y me permite ampliar mis conocimientos y experiencia exponencialmente. <br><br>
+            Desde los 9 años estudio el idioma Ingles. En el 2023 recibí mi Certificado de Ingles First, o First Certificate English (FCE) y planeo continuar con mis estudios, recibiendome en el nivel Advanced (C1). <br><br>
+            Actualmente sigo buscando expandir mis habilidades como desarrollador, mejorando cada día un poco mas! </p>
+        <div class="conocimientos">
+            <h1>Conocimientos</h1>
+            <ul>
+                <img src="https://thinkotb.b-cdn.net/wp-content/uploads/2023/01/c-4.svg" alt="C# logo" width="50">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" alt="C++ Logo" width="50">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/640px-Unofficial_JavaScript_logo_2.svg.png" alt="JavaScript Logo" width="50">
+            </ul>
+        </div>
+    </div>
+
+    <div id="Proyectos"> 
+        <h1>Proyectos</h1>
+        <p>¡En esta sección podrás ver algunos de mis proyectos!</p>
+        <div class="proyectosContainer">
+            <div class="proyectoTarjeta">
+                <h2>Klostermon</h2>
+                <img src="https://lh3.googleusercontent.com/d/13xwzv2As0sJXAdTdnfj7eTMDnBn8WDYv" alt="Klostermon logo">
+                <p>Videojuego de combate por turnos desarrollado en C++. Mi primera experiencia utilizando librerías (SFML) y administrando archivos.</p>
+                <a href="https://github.com/elpibefacha/KlosterMonUTN" target="_blank">Ver repositorio GitHub</a>
+            </div>
+            <div class="proyectoTarjeta">
+                <h2>Catalogo de artículos conectado a Base de Datos</h2>
+                <img src="https://lh3.googleusercontent.com/d/1sYNvETBx5_cRl9IoFIBZ0fTYjrIPzzQ9" alt="WinForms app">
+                <p>Una aplicación desarrollada con WinForms en C# para administrar distintos artículos. Se conecta a una Base de Datos local y permite agregar, eliminar y modificar artículos, marcas, categorías, e imagenes mediante la utilización de código SQL.</p>
+                <a href="https://github.com/Lautaro-Rock/tp-winform-equipo-9a" target="_blank">Ver repositorio GitHub</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="Contacto"> 
+        <h1>Formulario de contacto</h1>
+        <p>Si deseas contactarme, puedes enviarme un E-Mail mediante este formulario: </p>
+        <div class="formulario-contacto">
+            <form action="#" method="post">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                
+                <label for="descripcion">Descripción:</label>
+                <textarea id="descripcion" name="descripcion" placeholder="Escribe tu mensaje aquí..." rows="5" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
+
